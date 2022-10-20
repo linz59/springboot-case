@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///springboot?serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+  redis:
+    host: 192.168.2.118
+    port: 6379
+mybatis:
+  type-aliases-package: com.atguigu.pojo
+server:
+  port: 10002
+
+
